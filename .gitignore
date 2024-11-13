@@ -1,0 +1,4 @@
+.zcompdump
+.zprofile
+.zsh_*
+*.itermcolors
