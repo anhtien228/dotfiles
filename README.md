@@ -7,7 +7,11 @@ I used to force myself to learn all fancy dotfile config or automated process, b
 ## Requirements
 Ensure to have the following installed on the system:
 - [Homebrew](https://brew.sh/)
-- [Iterm2](https://iterm2.com
+- [Iterm2](https://iterm2.com)
+- [Stow](http://www.gnu.org/software/stow/) (using homebrew)
+
+## Setup
+Clone the repository, navigate to the folder, run `stow .`. This will create all symlinks to your home directory. Create a new terminal to refresh everything and follow some setup instructions (if any).
 
 ### Homebrew bundle
 Use the follow command to install some packages listed in `homebrew/.Brewfile`:
@@ -24,6 +28,6 @@ brew bundle --file=~/.dotfiles/homebrew/.Brewfile
 - zsh-autosuggestions
 - fzf-tab
 
-### Favorit themes
+### Favorite themes
 - Catppuccin Macchiato
 - Tokyo Night

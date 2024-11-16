@@ -72,3 +72,6 @@ alias c='clear'
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init zsh)"
+
+# Location file for symlinks
+export HOMEBREW_BUNDLE_FILE_GLOBAL=~/.homebrew/.Brewfile
