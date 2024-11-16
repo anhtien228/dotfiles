@@ -1,16 +1,19 @@
 # My dotfiles
-This repository contains the dotfiles for my personal system (macOS)
+This repository contains the dotfiles for my personal system (macOS). Managed using [Stow](http://www.gnu.org/software/stow/). Shell choice is `zsh`. Terminal emulator is Iterm2.
+
+## Note
+I used to force myself to learn all fancy dotfile config or automated process, but then realize that it wasn't worth the time for trial. Getting a minimal setup and install step by step is the way (inspired by [@dreamsofautonomy's zensh config](https://www.youtube.com/watch?v=ud7YxC33Z3w&t=237s))
+
 ## Requirements
-Ensure to have `homebrew` installed on the system.
+Ensure to have the following installed on the system:
+- [Homebrew](https://brew.sh/)
+- [Iterm2](https://iterm2.com
 
-### Git
-`brew install git`
-
-### Zoxide
-`brew install zoxide`
-
-### Zsh
-Zsh is integrated with Iterm2, so we only need to download the `.zshrc` file to have everything set up at once.
+### Homebrew bundle
+Use the follow command to install some packages listed in `homebrew/.Brewfile`:
+```
+brew bundle --file=~/.dotfiles/homebrew/.Brewfile
+```
 
 ### Plugins
 - Plugin manager: Zinit (https://github.com/zdharma-continuum/zinit)
@@ -21,5 +24,6 @@ Zsh is integrated with Iterm2, so we only need to download the `.zshrc` file to 
 - zsh-autosuggestions
 - fzf-tab
 
-### Themes
-- Iterm2: Catppuccin Macchiato
+### Favorit themes
+- Catppuccin Macchiato
+- Tokyo Night
