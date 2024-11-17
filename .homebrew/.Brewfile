@@ -10,5 +10,5 @@ brew 'stow'
 # Neovim
 brew 'neovim'
 
-# Python
-brew 'python'
+# Conda
+brew 'miniconda'

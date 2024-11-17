@@ -1,0 +1,8 @@
+# Minimal conda requirements
+python==3.10
+notebook
+ipykernel
+pandas
+scikit-learn
+matplotlib
+seaborn
