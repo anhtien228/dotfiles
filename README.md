@@ -11,13 +11,16 @@ Ensure to have the following installed on the system:
 - [Stow](http://www.gnu.org/software/stow/) (using homebrew)
 
 ## Setup
-Clone the repository, navigate to the folder, run `stow .`. This will create all symlinks to your home directory. Create a new terminal to refresh everything and follow some setup instructions (if any).
+Clone the repository, navigate to the folder and follow the steps as follows:
 
 ### Homebrew bundle
 Use the follow command to install some packages listed in `homebrew/.Brewfile`:
 ```
 brew bundle --file=~/.dotfiles/homebrew/.Brewfile
 ```
+
+### Stow for dotfiles management
+Within the cloned folder, run `stow .`. This will create all symlinks to your home directory. Create a new terminal to refresh everything and follow some setup instructions (if any).
 
 ### Plugins
 - Plugin manager: Zinit (https://github.com/zdharma-continuum/zinit)
